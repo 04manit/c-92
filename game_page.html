@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>Game Page</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    </head>
+
+    <body style="background-color: cyan;">
+        <p>
+            <label id="player_1_name_game"></label>
+            <label id="score_player_1_game"></label><br>
+
+            <label id="player_2_name_game"></label>
+            <label id="score_player_2_game"></label>
+        </p>
+        <div class="container">
+            <center>
+                
+                <h1 style="color: darkblue; font-weight: bold;">Guess the Word !</h1>
+
+                <p style="font-size: 20px;">Question Turn : <label id="question_turn">Manit</label><br>Answer Turn : <label id="answer_turn">Devansh</label><br>
+                </p>
+
+                <div class="col-md-3"></div>
+                <div style="background-color: white; text-align: left; border-radius: 10px; border-top-width: 5px; border-top-style: solid; border-top-color: red; border-bottom-width: 15px; border-bottom-style: solid; border-bottom-color: white;" id="output" class="col-lg-6"></div><br>
+
+                <p style="margin-top: 50px; font-size: 18px;">Send Your Word : <label style="color: darkred;">Try putting word which has 5 or more alphabets</label></p>
+                <input id="word" placeholder="Write your word" style="width: 50%;" type="text"><br><br>
+
+                <button onclick="send()" style="width: 40%;" class="btn btn-success">Send</button>
+                
+            </center>
+        </div>
+
+        <script src="game_page.js"></script>
+    </body>
+</html>

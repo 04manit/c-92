@@ -1,0 +1,41 @@
+<!-- Login page -->
+<html>
+    <head>
+        <title>Login Page</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    </head>
+
+    <body style="background-color: lightblue;">
+        <h1 style="font-weight: bold; text-align: center; color: darkred;">Login</h1>
+
+        <div class="col-md-12">
+            <div class="col-md-3"></div>
+            <div class="col-md-6" style="border-radius: 10px; margin-top: 50px; text-align: center; background-color: white;">
+                <h2>Player 1 : Login for the Game</h2>
+                <p>Username :</p>
+                <input id="player_1_name" placeholder="Player 1 Name" style="width: 95%;" type="text"><br><br>
+            </div>
+        </div>
+
+
+        <div class="col-md-12">
+            <div class="col-md-3"></div>
+            <div class="col-md-6" style="border-radius: 10px; margin-top: 50px; text-align: center; background-color: white;">
+                <h2>Player 2 : Login for the Game</h2>
+                <p>Username :</p>
+                <input id="player_2_name" placeholder="Player 2 Name" style="width: 95%;" type="text"><br><br>
+            </div>
+        </div>
+
+        <div class="col-md-12">
+            <div class="col-md-3"></div>
+            <div class="col-md-6">
+                <button onclick="addUser()" style="margin-top: 20px; width: 100%;" class="btn btn-primary">Log in</button>
+            </div>
+        </div>
+
+        <script src="login.js"></script>
+    </body>
+</html>
